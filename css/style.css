@@ -1,0 +1,90 @@
+/* GENERAL RULES */
+body a{
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  font-family: "Roboto", "san-serif";
+  color: #041c4e;
+}
+
+.padding_none{
+  padding: 0px auto;
+}
+
+/* END OF GENERAL RULES */
+
+/************ HEADER SECTION ***********/
+header nav{
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+}
+/* Logo */
+.ms_logo img{
+  width: 70%;
+}
+/* End of Logo */
+
+/* Menu */
+.left_menu li:first-child{
+  padding-right: 0;
+}
+.left_menu li:nth-child(2){
+  padding-left: 0;
+
+}
+
+.left_menu li:nth-child(4){
+  padding-right: 0;
+}
+
+.left_menu li:nth-child(5){
+  padding-left: 0;
+}
+
+.right_menu li:nth-child(2){
+  padding-right: 0;
+}
+
+.right_menu li:nth-child(3){
+  padding-left: 0;
+}
+
+
+
+.right_menu li:last-child a {
+  color: #004aff;
+  padding: 10px;
+  border: 1px solid #004aff;
+  border-radius: 5px;
+}
+/* End of Menu */
+
+/* Jumbotron */
+.jumbo-wrapper{
+  color: #ffffff;
+  min-height: 550px;
+  background-image: url(../img/bg-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title h1 {
+  font-size: 5.3rem;
+  padding: 40px 0px;
+
+
+}
+
+.title p{
+  line-height:normal;
+  font-size: 2.5rem;
+}
+
+
+/* End of Jumbotron */
+
+
+
+
+/************ END HEADER SECTION *******/
