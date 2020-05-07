@@ -288,7 +288,16 @@ header nav{
   text-align: left;
 }
 
-
 /* End of FOR DEVELOPERS */
+
+/* FEATURES */
+.features .features_item{
+  padding: 10% 0%;
+}
+
+.features .features_item img {
+  padding-bottom: 10px;
+}
+/* End of FEATURES */
 
 /************ END OF  SECTION *************/
