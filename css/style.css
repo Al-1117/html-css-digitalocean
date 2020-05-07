@@ -1,5 +1,5 @@
 /* GENERAL RULES */
-body a{
+a{
   text-decoration: none;
   color: inherit;
 }
@@ -18,7 +18,7 @@ body{
   max-width: 60%;
 } */
 
-body ul li {
+ul li {
   list-style: none;
 }
 /* Section General rules */
@@ -51,6 +51,30 @@ section p {
 }
 
 /* Section general rules */
+
+/* Components General Rules */
+
+/* Slider */
+  .slider img{
+    width: 100%;
+    padding-top: 2%;
+  }
+
+  .arrow{
+    font-size: 60px;
+    height: 436px;
+    line-height: 436px;
+  }
+  .left_arrow{
+    text-align: right;
+  }
+
+  .right_arrow{
+    text-align: left;
+  }
+}
+
+/* Slider */
 
 /* END OF GENERAL RULES */
 
@@ -112,6 +136,18 @@ header nav{
 @media all and (max-width: 768px){
   .burger_menu{
   margin-right: 3%;
+  }
+
+  header nav{
+    height: 80px;
+    line-height: 80px;
+  }
+}
+
+@media all and (min-width: 992px){
+  header nav{
+    height: 80px;
+    line-height: 80px;
   }
 }
 
@@ -188,7 +224,7 @@ header nav{
   color: #162c5a;
 }
 
-.ms_account .notice p a {
+.ms_account span:first-child a {
   color: blue;
   text-decoration: underline;
 }
@@ -221,9 +257,14 @@ header nav{
   padding-bottom: 15%;
 }
 @media all and (max-width: 768px){
+  .customers_logo_wrapper .logo_item img{
+    width: 80%;
+    text-align: center;
+    padding-left: 70px;
+  }
   .customers_logo_wrapper .last .logo_item img{
-    padding-top: 0;
-    padding-bottom: 0;
+    height: 69%;
+    width: 73%;
   }
 }
 
@@ -259,10 +300,25 @@ header nav{
   padding-bottom: 5px;
 }
 
+
+
 /* Right List */
 .right_list_item{
   padding-top: 10px;
   height: 200px;
+}
+
+@media all and (max-width: 768px){
+  .left_list{
+    margin-left:0px;
+    margin-bottom: 20px;
+  }
+  .left_list ul{
+    padding-left: 10px;
+  }
+  .right_list_item {
+    height: auto;
+  }
 }
 /* End of DEPLOY AND SCALE */
 
@@ -270,23 +326,8 @@ header nav{
 .slider_wrapper{
   padding: 3% 0%;
 }
-.slider img{
-  width: 100%;
-  padding-top: 2%;
-}
 
-.arrow{
-  font-size: 60px;
-  height: 436px;
-  line-height: 436px;
-}
-.left_arrow{
-  text-align: right;
-}
 
-.right_arrow{
-  text-align: left;
-}
 
 /* End of FOR DEVELOPERS */
 
@@ -298,6 +339,36 @@ header nav{
 .features .features_item img {
   padding-bottom: 10px;
 }
+
+@media all and (max-width: 768px){
+  .features .features_item{
+    padding: 0;
+  }
+
+  .features .features_item{
+    margin: 20px 0px;
+  }
+}
 /* End of FEATURES */
 
-/************ END OF  SECTION *************/
+/* Around the World */
+.around_world{
+  color: #ffffff;
+  background-color: #0040bd;
+}
+.around_world h2{
+  color: #ffffff;
+}
+.around_world ul{
+ border-bottom: 1px solid #a2b7e4;
+ margin: 10px 0px;
+}
+.around_world ul li:nth-child(3) a{
+  padding-left: 250px;
+}
+.around_world ul li {
+  padding: 10px 0px;
+}
+
+
+/************ END OF MAIN SECTION *************/
