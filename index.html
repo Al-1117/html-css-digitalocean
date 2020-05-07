@@ -11,20 +11,20 @@
   </head>
 
   <body>
-    <!---HEADER SECTION---->
+    <!-----------------------HEADER SECTION---------------------->
     <header>
       <nav>
-        <!-- Top Header -->
+        <!-- TOP HEADER -->
         <div class="container">
           <div class="row">
 
             <!-- Logo -->
-            <div class="col-xs-6 col-md-6 col-lg-3 ms_logo">
+            <div class="col-xs-6 col-md-3 col-lg-3 ms_logo">
               <img src="img/logo.png" alt="digital ocean logo">
             </div>
 
             <!-- Left Menu -->
-            <div class="col-xs-6 col-md-6 col-lg-5">
+            <div class="col-xs-6 col-md-4 col-lg-5 hidden-xs hidden-md">
               <ul class="list-inline left_menu">
                 <li class="padding_none"><a href="#">Products</a></li>
                 <li class="padding_none"><i class="fas fa-chevron-down"></i></li>
@@ -36,7 +36,7 @@
             </div>
 
             <!-- Right Menu -->
-            <div class="col-xs-6 col-md-6 col-lg-4">
+            <div class="col-xs-6 col-md-5 col-lg-4 hidden-xs hidden-md">
               <ul class="list-inline right_menu">
                 <li><a href="#">Docs</a></li>
                 <li class="padding_none"><a href="#">Support</a></li>
@@ -45,33 +45,151 @@
                 <li><a href="#">Sing Up</a></li>
               </ul>
             </div>
-          </div>
+            <!-- Burger menu -->
+            <div class="burger_menu visible-xs-block visible-md-block">
+              <span><i class="fas fa-bars"></i></span>
+            </div>
         </div>
+      </nav>
+      <!-- End of TOP HEADER -->
 
-        <!-- Jumbotron -->
-        <div class="jumbo-wrapper">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-md-6 col-lg-6">
-                <div class="title">
-                  <h1>The simplest cloud platform for developers & teams</h1>
-                  <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're runing one virtual machine or ten thousand.</p>
-                </div>
+        <!-- JUMBOTRON -->
+        <!-- Title -->
+      <div class="jumbo_wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-6">
+              <div class="title">
+                <h1>The simplest cloud platform for developers & teams</h1>
+                <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're runing one virtual machine or ten thousand.</p>
               </div>
-              <div class="account">
-                
-
-              </div>
-
-
             </div>
 
+            <!-- Account -->
+            <div class="col-xs-12 col-md-6 col-lg-6">
+              <div class="ms_account">
+                <h3>Deploy your app in seconds.</h3>
+                <h3 class="get">Get started now.</h3>
+                <!-- Form -->
+                <form class="form-horizontal">
+                  <div class="form-group ms_form">
+                    <label for="inputEmail3" class="control-label">Email</label>
+                    <div class="">
+                      <input type="email" class="form-control ms_control" id="inputEmail3" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="form-group ms_form">
+                    <label for="inputPassword3" class="control-label ms_label">Password</label>
+                    <div class="">
+                      <input type="password" class="form-control ms_control" id="inputPassword3" placeholder="Password">
+                    </div>
+                  </div>
+                </form>
+                <!-- Btn -->
+                <div class="btn_wrapper">
+                  <button type="button" class="btn btn-primary ms_btn ms_btn_account">Create your account</button>
+                </div>
+                <div class="btn_wrapper">
+                  <button type="button" class="btn btn-default ms_btn ms_btn_google"><img src="img/google-icon.png" alt="">Sign up with google</button>
+                </div>
+                <span class="notice"><p>By signing up you agree to the <a href="#">Terms of Service</a>.</p></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of JUMBOTRON -->
+    </header>
+      <!--------------------END OF HEADER SECTION------------>
+
+      <!----------------------- MAIN SECTION ------------------------->
+    <main>
+      <!-- CUSTOMERS -->
+      <section id="customers" class="customers">
+        <div class="container">
+          <div class="row customers_wrapper">
+
+            <!-- Intro -->
+            <div class="col-xs-12 customers_intro text-center">
+              <p>innovative businesses trust digitalocean</p>
+            </div>
           </div>
 
+          <!-- Customers Logos -->
+          <div class="row customers_logo_wrapper">
+            <div class="col-xs-6 col-md-2 col-lg-2">
+              <div class="logo_item">
+                <img src="img/docker.png" alt="docker logo">
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-2 col-lg-2">
+              <div class="logo_item">
+                <img src="img/gitlab.png" alt="gitlab logo">
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-2 col-lg-2">
+              <div class="logo_item">
+                <img src="img/slack.png" alt="slack logo">
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-2 col-lg-2">
+              <div class="logo_item">
+                <img src="img/hashicorp.png" alt="hashicorp logo">
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-2 col-lg-2">
+              <div class="logo_item">
+                <img src="img/hashicorp.png" alt="hashicorp logo">
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-2 col-lg-2 last">
+              <div class="logo_item">
+                <img src="img/splunk.png" alt="splunk logo">
+              </div>
+            </div>
+
+            <!-- Custoemrs stories -->
+            <div class="text_blue text-center stories">
+              <p>View custoemr stories &gt;</p>
+            </div>
+          </div>
         </div>
-        <!-- End of Top Header -->
-      </nav>
-    </header>
-      <!---END OF HEADER SECTION--->
+      </section>
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!----------------END OF  MAIN SECTION ------------------------->
   </body>
 </html>

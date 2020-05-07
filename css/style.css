@@ -8,8 +8,12 @@ body{
   color: #041c4e;
 }
 
+.text_blue{
+  color: #3487fe;
+  font-weight: 500;
+}
 .padding_none{
-  padding: 0px auto;
+  padding: ;
 }
 
 /* END OF GENERAL RULES */
@@ -19,6 +23,8 @@ header nav{
   height: 70px;
   text-align: center;
   line-height: 70px;
+  color: #162d5b;
+  font-weight: 500;
 }
 /* Logo */
 .ms_logo img{
@@ -59,32 +65,132 @@ header nav{
   border: 1px solid #004aff;
   border-radius: 5px;
 }
+
+/* Burger Menu */
+.burger_menu{
+  font-size: 2.5rem;
+  text-align: right;
+  color: #3487fe;
+}
+
+@media all and (max-width: 768px){
+  .burger_menu{
+  margin-right: 3%;
+  }
+}
+
+
 /* End of Menu */
 
-/* Jumbotron */
-.jumbo-wrapper{
+/* JUMBOTRON */
+/* Title */
+.jumbo_wrapper{
   color: #ffffff;
   min-height: 550px;
   background-image: url(../img/bg-home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 60px 0px;
 }
 .title h1 {
-  font-size: 5.3rem;
+  font-size: 5.7rem;
   padding: 40px 0px;
-
-
 }
 
 .title p{
+  text-align: left;
   line-height:normal;
   font-size: 2.5rem;
+  color: #bbccfd;
 }
 
+/* Account */
+.ms_account{
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 30px 0px;
+  text-align: center;
+}
+.ms_account h3{
+  color: #031c4e;
+  font-size: 3.3rem;
+}
 
-/* End of Jumbotron */
+/* Form */
+.ms_form{
+  width: 100%;
+  line-height: 10px;
+}
+.ms_control{
+  width: 90%;
+  margin-left: 40px;
+}
+.ms_account .get{
+  color: #006aff;
+}
+.ms_label{
+  font-size: 20px;
+}
 
+/* Btn */
+.btn-wrapper{
+}
+.ms_btn{
+  margin: 10px 0px;
+  width: 90%;
+}
+.ms_btn_account{
+  background-color: #579aff;
+}
+.btn_wrapper img{
+  width: 5%;
+  height: 80%;
+}
 
+/* Advise */
+.ms_account .notice{
+  color: #162c5a;
+}
 
-
+.ms_account .notice p a {
+  color: blue;
+  text-decoration: underline;
+}
+/* End of JUMBOTRON */
 /************ END HEADER SECTION *******/
+
+/************ MAIN SECTION **************/
+/* Intro */
+.customers{
+  background-color: #f3f5f9;
+  padding: 3% 0;
+}
+.customers_intro p{
+  color: #77829d;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+/* Customers Logo */
+
+.logo_item img{
+  width: 100%;
+  height: 100px;
+}
+
+.customers_logo_wrapper .last .logo_item img{
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+@media all and (max-width: 768px){
+  .customers_logo_wrapper .last .logo_item img{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+/* Customer Stories */
+
+
+/************ END OF  SECTION *************/
