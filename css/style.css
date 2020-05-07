@@ -12,9 +12,45 @@ body{
   color: #3487fe;
   font-weight: 500;
 }
-.padding_none{
-  padding: ;
+
+/*
+.container-fluid{
+  max-width: 60%;
+} */
+
+body ul li {
+  list-style: none;
 }
+/* Section General rules */
+section {
+  padding: 3% 0%;
+}
+section h2{
+  color: #031c4e;
+  font-size: 3.5rem;
+
+}
+section h4{
+  color:#5e6c8a;
+  font-size: 2.5rem;
+}
+
+section h5{
+  color: #031c4e;
+  font-size: 1.8rem;
+}
+
+section p {
+  color: #6a7692;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.secondary_section{
+  background-color: #f3f5f9;
+}
+
+/* Section general rules */
 
 /* END OF GENERAL RULES */
 
@@ -160,6 +196,7 @@ header nav{
 /************ END HEADER SECTION *******/
 
 /************ MAIN SECTION **************/
+/* CUSTOMERS */
 /* Intro */
 .customers{
   background-color: #f3f5f9;
@@ -191,6 +228,42 @@ header nav{
 }
 
 /* Customer Stories */
+.stories{
+  color: #3487fe;
+  font-weight: 500;
+}
+/* End of CUSTOMERS */
 
+/* DEPLOY AND SCALE */
+/* Intro */
+
+.list_wrapper{
+  margin: 4% 0%;
+}
+
+.intro_deploy_scale{
+  text-align: center;
+}
+
+/* Left List */
+.left_list{
+  border-left: 2px solid #5e6c8a;
+  margin-left: -25px;
+  min-height: 300px;
+}
+
+.left_list ul{
+  padding-top: 5px;
+}
+.left_list ul li {
+  padding-bottom: 5px;
+}
+
+/* Right List */
+.right_list_item{
+  padding-top: 10px;
+  height: 200px;
+}
+/* End of DEPLOY AND SCALE */
 
 /************ END OF  SECTION *************/
