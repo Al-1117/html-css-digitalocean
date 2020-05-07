@@ -266,4 +266,29 @@ header nav{
 }
 /* End of DEPLOY AND SCALE */
 
+/* FOR DEVELOPERS */
+.slider_wrapper{
+  padding: 3% 0%;
+}
+.slider img{
+  width: 100%;
+  padding-top: 2%;
+}
+
+.arrow{
+  font-size: 60px;
+  height: 436px;
+  line-height: 436px;
+}
+.left_arrow{
+  text-align: right;
+}
+
+.right_arrow{
+  text-align: left;
+}
+
+
+/* End of FOR DEVELOPERS */
+
 /************ END OF  SECTION *************/
