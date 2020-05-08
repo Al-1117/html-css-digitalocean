@@ -492,3 +492,28 @@ header nav{
 /* End of GET STARTED */
 
 /************ END OF MAIN SECTION *************/
+
+/************ FOOTER SECTION ******************/
+footer{
+  padding: 70px 0px;
+  background-color: #031c4e;
+  color: #a1a9ba;
+}
+
+footer .footer_logo img{
+  padding-bottom: 10px;
+}
+footer .footer_logo ul li{
+  font-size: 25px;
+  color: #7a859d;
+}
+
+footer .links ul li{
+  padding: 5px 0px;
+}
+
+footer .links ul li:first-of-type {
+  font-weight: 800;
+  color: #ffffff;
+}
+/********END OF FOOTER SECTION ******************/
