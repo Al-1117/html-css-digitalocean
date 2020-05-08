@@ -146,6 +146,12 @@ header nav{
   line-height: 70px;
   color: #162d5b;
   font-weight: 500;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: #ffffff;
+  z-index: 10;
 }
 /* Logo */
 .ms_logo img{
@@ -540,7 +546,7 @@ footer .links ul li:first-of-type {
   margin-right: 20px;
   padding: 10px 10px;
   width: 300px;
-  background-color: #ffffff;
+  background-color: lightgray;
   border-radius: 7px;
 }
 
@@ -569,4 +575,15 @@ footer .links ul li:first-of-type {
     background-color: red;
     top: calc(0% - 15px);
     right: calc(0% - 15px);
+}
+
+@media all and (max-width: 768px){
+  .assistant {
+    width: 450px;
+    height: 100px;
+    position: fixed;
+    left: 5%;
+    bottom: 15%;
+
+  }
 }
