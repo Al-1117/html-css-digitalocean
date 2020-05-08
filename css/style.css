@@ -54,6 +54,10 @@ section p {
   background-color: #f3f5f9;
 }
 
+.alternative_section{
+  background-color: #00229d;
+  color: #ffffff;
+}
 /* Section general rules */
 
 /* Components General Rules */
@@ -466,5 +470,25 @@ header nav{
   padding-bottom: 30px;
 }
 /* End of FEEDBACKS */
+
+/* End of GET STARTED */
+
+.get_started{
+  min-height: 200px;
+}
+
+.get_started h2{
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.ms_btn{
+  color: #002fa9;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 7px;
+  margin-top: 15px;
+}
+/* End of GET STARTED */
 
 /************ END OF MAIN SECTION *************/
