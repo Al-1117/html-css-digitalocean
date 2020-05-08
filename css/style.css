@@ -517,3 +517,56 @@ footer .links ul li:first-of-type {
   color: #ffffff;
 }
 /********END OF FOOTER SECTION ******************/
+
+
+/* ASSISTANT */
+.assistant {
+  width: 450px;
+  height: 100px;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+
+}
+
+.assistant::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.assistant .message{
+  float: left;
+  margin-right: 20px;
+  padding: 10px 10px;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 7px;
+}
+
+.assistant .shark{
+  position: relative;
+  width: 90px;
+  height: 100px;
+  float: left;
+  background-image: url(../img/dolphin.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  border-radius: 7px;
+  background-color: #006aff;
+}
+
+.counter{
+  position: absolute;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    font-size: 17px;
+    color: #ffffff;
+    height: 32px;
+    width: 30px;
+    text-align: center;
+    background-color: red;
+    top: calc(0% - 15px);
+    right: calc(0% - 15px);
+}
