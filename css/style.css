@@ -292,9 +292,10 @@ nav .fa-chevron-down{
   font-weight: 500;
 }
 
-/* Customers Logo */
 
-.logo_item img{
+/* Customers Logo PRIMA */
+
+/* .logo_item img{
   width: 100%;
   height: 100px;
 }
@@ -313,7 +314,29 @@ nav .fa-chevron-down{
     height: 69%;
     width: 73%;
   }
+} */
+
+/* Customer Logos DOPO CORREZIONE */
+
+.logos li{
+  width: calc((100% / 6 ) - 10px);
+  display: inline-block;
+  padding: 0 10px;
 }
+
+.logos li img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .logos li{
+    width: calc((100% / 2 ) - 10px);
+  }
+}
+
+
+
+
 
 /* Customer Stories */
 .stories{
